@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(45, 45, 45);
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls>div>button{
+    border: 1px solid grey;
+    margin: 0px 10px;
+    border-radius: 4px;
+}
+
+.Start{
+background-color: rgb(135, 255, 135);
+}
+
+.controls>div>button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.stopwatchtime>h1{
+    color: white;
+}
